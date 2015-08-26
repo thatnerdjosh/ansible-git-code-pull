@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Joshua Santos
-  description: Ansible role to rebuild a docker container
+  description: Ansible role to pull a git repo
   license: MIT
   min_ansible_version: 1.5
   categories:
