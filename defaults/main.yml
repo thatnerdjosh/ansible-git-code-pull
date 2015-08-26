@@ -1,0 +1,4 @@
+code_root: "/home/code/postgresdesign/branches"
+code_repo: "git@github.com:xenophenes/postgresql_draft.git"
+key_file: "/home/ansible/.ssh/id_rsa"
+current_branch: "master"

@@ -1,0 +1,11 @@
+- name: Add {{ current_branch.capitalize() }} Branch dir if it doesn't exist
+  file: path={{ code_root }}/{{ current_branch }} owner=ansible group=docker recurse=yes state=directory
+  sudo: yes
+
+- name: Clone {{ current_branch.capitalize() }} Branch
+  git: repo={{ code_repo }}
+       dest={{ code_root }}/{{ current_branch }}
+       version={{ current_branch }}
+       accept_hostkey=yes
+       key_file={{key_file}}
+       force=yes
