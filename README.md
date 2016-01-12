@@ -7,3 +7,5 @@
           code_repo: "ssh://git@dev.goclean.catzcode.com:2222/nerdsville/goclean.git"
           code_root: "/home/code/goclean/branches"
           current_branch: "dev"
+          owner: "vagrant"
+          group: "vagrant"
